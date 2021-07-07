@@ -5,7 +5,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background: rgb(11, 1, 22);
+  background: #000133;
 }
 
 a {
@@ -49,7 +49,7 @@ p {
 }
 
 .back-to-top i:hover {
-  background: #09B473;
+  background: #10439D;
   color: #fff;
 }
 
@@ -62,7 +62,7 @@ p {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgb(8 174 131 / 75%);
+  background: #014282d8;
 }
 
 #header .logo {
@@ -80,9 +80,8 @@ p {
 }
 
 #header .logo img {
-  max-height: 40px;
+  width: 61px;
 }
-
 /*---------Navigation ----------*/
 .nav-menu ul {
   margin: 0;
@@ -133,10 +132,9 @@ p {
 }
 
 .get-started-btn:hover {
-  background: #09B473;
-  border: 2px solid #09B473!important;
+  background: #10439D;
+  border: 2px solid #10439D!important;
   color: #fff;
-  
 }
 a.btn-scroll.scrollto.home i {
   margin-top: 38px;
@@ -507,7 +505,7 @@ section {
   font-size: 55px;
   line-height: 60px;
   margin-bottom: 16px;
-  background: linear-gradient(to right, #007bff 0%, #0fdc13 100%);
+  background: linear-gradient(to right, #1136a9 0%, #0fdc13 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -624,8 +622,8 @@ figcaption {
   padding: 15px;  
   padding-bottom: 40px;
   background: linear-gradient(
-    0deg
-    , #007bff, #0fdc13 100%) no-repeat; 
+    359deg
+    , rgb(13 203 60), rgb(1 56 118) 48%) no-repeat;
 
 }
 .tartarus  a{
@@ -666,7 +664,7 @@ figcaption {
 }
 .img_box h2 i {
   font-size: 21px;
-  background: #47b2e4;
+  background: #001146;
   color: #fff;
   line-height: 2;
   padding: 11px 0;
@@ -717,7 +715,7 @@ color: #0DCE36;
 /*---------Footer----------*/
 #footer {
   font-size: 15px;
-  background: #132A41;
+  background: #001146;
   padding: 50px;
   color: #fff;
 }
@@ -737,11 +735,16 @@ color: #0DCE36;
 }
 
 #footer  .social-connected a:hover {
-  border: 2px solid #0DCB3C;
-  color: #0dcb3cec;
+  border: 2px solid #000133;
+  color: #0FD01E;
   text-decoration: none;
   transition: all 0.5s;
 }
+
+.social-connected{
+  float: right;
+}
+
 /*---------Responsive ----------*/
 @media (max-width: 768px) {
   .nfts-poseidon {
@@ -779,5 +782,14 @@ color: #0DCE36;
   .img_box{
     margin-top: 40px;
   }
+
+  #header .logo img {
+    width: 43px;
+    margin-top: -4px;
+}
+
+.social-connected{
+  float: left;
+}
 
 }
