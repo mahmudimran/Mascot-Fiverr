@@ -137,7 +137,7 @@ p {
   color: #fff;
 }
 a.btn-scroll.scrollto.home i {
-  margin-top: 38px;
+  margin-top: 56px;
   font-size: 31px;
 }
 @media (max-width: 768px) {
@@ -792,4 +792,8 @@ color: #0DCE36;
   float: left;
 }
 
+a.btn-scroll.scrollto.home i {
+  margin-top: 106px;
+  font-size: 27px;
+}
 }
