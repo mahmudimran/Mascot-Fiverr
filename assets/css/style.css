@@ -6,6 +6,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
   background: #000133;
+  
 }
 
 a {
@@ -261,7 +262,21 @@ video {
   line-height: 1.5;
   text-align: center;
 }
-
+.bg-video-wrap .winter {
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  position: absolute;
+  top: -190px;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+  width: 155px;
+}
 .bg-video-wrap h1 {
   text-align: center;
   font-size: 50px;
@@ -373,9 +388,6 @@ video {
   transition: 0.3s;
 }
 
-#hero .btn-watch-video:hover i {
-  color: #47b2e4;
-}
 
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -413,8 +425,9 @@ a.btn-scroll.scrollto.home {
   animation: up-down 1s ease-in-out infinite alternate-reverse both;
 }
 
-a.btn-scroll.scrollto.home {
-  font-size: 50px;
+a.btn-scroll.scrollto.home i {
+  font-size: 37px;
+  margin-top: 24px;
 }
 
 #hero .btn-scroll:hover {
@@ -522,7 +535,13 @@ section {
   background-size: rgb(15, 3, 49);
 
 }
+.walletbuy {
+margin-top: 100px;
+}
 
+.walet p{
+  margin-bottom: 10px;
+}
 .preview {
   position: relative;
   overflow: hidden;
@@ -793,7 +812,12 @@ color: #0DCE36;
 }
 
 a.btn-scroll.scrollto.home i {
-  margin-top: 106px;
+  margin-top: 75px;
   font-size: 27px;
 }
+
+.walletbuy{
+margin-bottom: 0px;
 }
+}
+
