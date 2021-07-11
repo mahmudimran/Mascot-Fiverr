@@ -6,6 +6,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
   background: #000133;
+
   
 }
 
@@ -14,7 +15,7 @@ a {
 }
 
 a:hover {
-  color: #73c5eb;
+  color: #D2A31A;
   text-decoration: none;
 }
 
@@ -122,7 +123,7 @@ p {
   margin-left: 25px;
     color: #fff;
     border-radius: 50px;
-    padding: 6px 25px 7px 25px;
+    padding: 6px 13px 7px 15px;
     white-space: nowrap;
     transition: 0.3s;
     font-size: 14px;
@@ -137,15 +138,50 @@ p {
   border: 2px solid #10439D!important;
   color: #fff;
 }
-a.btn-scroll.scrollto.home i {
+a.btn-scroll.scrollto.buy i {
   margin-top: 56px;
   font-size: 31px;
 }
 @media (max-width: 768px) {
   .get-started-btn {
-    margin: 0 48px 0 0;
-    padding: 6px 20px 7px 20px;
+    margin: 0 74px 0 0;
+    padding: 5px 7px;
+    font-size: 8px;
+    display: none;
+    
   }
+}
+
+.get-started-buy-btn {
+    color: #fff;
+    border-radius: 50px;
+    padding: 6px 13px 7px 15px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+    border: 2px solid #0DCB3C;
+    font-weight: 600;
+    background-color: #0DCB3C;
+}
+
+.get-started-buy-btn:hover {
+  background: #10439D;
+  border: 2px solid #10439D!important;
+  color: #fff;
+}
+a.btn-scroll.scrollto.home i {
+  margin-top: 56px;
+  font-size: 31px;
+}
+@media (max-width: 768px) {
+  .get-started-buy-btn {
+    margin-top: 13px;
+    padding: 5px 7px; 
+    font-size: 8px; 
+
+  }
+
 }
 
 /* Mobile Navigation */
@@ -295,7 +331,7 @@ video {
   width: 100%;
   height: 50px;
 }
-.bg-video-wrap p  {
+.bg-video-wrap p{
   text-align: center;
   font-size: 20px;
   text-transform: capitalize;
@@ -311,6 +347,26 @@ video {
   width: 100%;
   height: 50px;
 }
+
+ .winterbtn a {
+  text-align: center;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 700;
+  position: absolute;
+  top: 126px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+  width: 100%;
+  height: 50px;
+}
+
+
+
 .home{
   text-align: center;
   font-size: 20px;
@@ -335,57 +391,6 @@ video {
 
 #hero .container {
   padding-top: 72px;
-}
-
-/* #hero h1 {
-  margin: 0 0 10px 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
-  color: #fff;
-} */
-
-#hero h2 {
-  color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 50px;
-  font-size: 24px;
-}
-
-#hero .btn-get-started {
-  font-family: "Jost", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 28px 11px 28px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px 0 0 0;
-  color: #fff;
-  background: #47b2e4;
-}
-
-#hero .btn-get-started:hover {
-  background: #209dd8;
-}
-
-#hero .btn-watch-video {
-  font-size: 16px;
-  display: inline-block;
-  padding: 10px 0 8px 40px;
-  transition: 0.5s;
-  margin: 10px 0 0 25px;
-  color: #fff;
-  position: relative;
-}
-
-#hero .btn-watch-video i {
-  color: #fff;
-  font-size: 32px;
-  position: absolute;
-  left: 0;
-  top: 7px;
-  transition: 0.3s;
 }
 
 
@@ -426,7 +431,7 @@ a.btn-scroll.scrollto.home {
 }
 
 a.btn-scroll.scrollto.home i {
-  font-size: 37px;
+  font-size: 32px;
   margin-top: 24px;
 }
 
@@ -439,6 +444,7 @@ a.btn-scroll.scrollto.home i {
 section {
   padding: 60px 0;
   overflow: hidden;
+
 }
 
 .section-bg {
@@ -605,7 +611,7 @@ figcaption {
 .overlay-txt {
   position: absolute;
   width: 100%;
-  bottom: 0;
+  bottom: 40px;
   padding: 10px;
   margin: -5px 0 0;
   font-weight: 600;
@@ -623,13 +629,7 @@ figcaption {
     margin-bottom: 20px;
    
   }
-
-  .overlay-txt{
-    margin-top: -14px;
-  }
-
 }
-
 
 /*---------features----------*/
 
@@ -674,11 +674,10 @@ figcaption {
 }
 .img_box h2 {
   position: absolute;
-  margin: auto;
-  left: 45%;
-  top: 40%;
-  z-index: 1;
-  letter-spacing: 2px;
+    z-index: 1;
+    bottom: 60%;
+    top: 39%;
+    right: 44%;
 
 }
 .img_box h2 i {
@@ -764,6 +763,19 @@ color: #0DCE36;
   float: right;
 }
 
+/* @media (max-width: 468px) {
+  a.btn-scroll.scrollto.home i {
+    margin-top: 27px;
+    font-size: 23px;
+  }
+} */
+@media only screen and (max-width: 600px) {
+  a.btn-scroll.scrollto.home i {
+    margin-top: 27px;
+    font-size: 23px;
+  }
+}
+
 /*---------Responsive ----------*/
 @media (max-width: 768px) {
   .nfts-poseidon {
@@ -811,13 +823,41 @@ color: #0DCE36;
   float: left;
 }
 
-a.btn-scroll.scrollto.home i {
-  margin-top: 75px;
-  font-size: 27px;
-}
+/* a.btn-scroll.scrollto.home i {
+  margin-top: 27px;
+  font-size: 23px;
+} */
 
 .walletbuy{
 margin-bottom: 0px;
 }
+
+.bg-video-wrap p{
+font-size: 15px;
 }
+.bg-video-wrap h1{
+font-size:35px ;
+padding-top: 10px;
+}
+.bg-video-wrap .winter{
+  width: 137px;
+  padding-top: 53px;
+}
+.img_box h2{
+  top: 46%;
+  right: 44%;
+}
+.img_box h2 i {
+    font-size: 19px;
+    background: #001146;
+    color: #fff;
+    line-height: 2;
+    padding: 4px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+}
+}
+
 
